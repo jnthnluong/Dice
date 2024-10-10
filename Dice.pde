@@ -159,6 +159,6 @@ class Die //models one single dice cube
      }*/
 
 
-    System.out.println(value);
+ 
   }
 }
