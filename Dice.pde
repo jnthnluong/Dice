@@ -8,12 +8,11 @@ int direction = (int)(Math.random()*2);
 int randomR = (int)(Math.random()*255+80);
 int randomG = (int)(Math.random()*200+60);
 int randomB = (int)(Math.random()*255);
-int playerRoll =  (int)(Math.random()*20+1);
 int d6Total = 0;
 int d20Total = 0;
 void draw() {
   
-  playerRoll =  (int)(Math.random()*20+1);
+  
   if (direction == 1) {
     direction = -1;
   } else {
@@ -145,7 +144,7 @@ class Die6 //models one single dice cube
   }
   void show()
   {
-    // ATM this is just for a set position, subtract 425 from all x and y values to get a dice that appears at 0,0 and then add myX and myY values
+    
     //back part of dice
     fill(255); 
     rect(-25+myX, -25+myY, 50, 50, 15, 15, 15, 15); 
@@ -229,7 +228,7 @@ class Die20 //models one single dice cube
   }
   void show()
   {
-    // ATM this is just for a set position, subtract 425 from all x and y values to get a dice that appears at 0,0 and then add myX and myY values
+    
     //back part of dice
 
     beginShape();
