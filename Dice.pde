@@ -20,7 +20,7 @@ void draw() {
     direction = 1;
   }
   //rect(400,400, 100, 100);
-  background(100, 100, 100);
+    background(183,136,65);
   // translate to desired location, rotate, create, reverse rotate, reverse translate
   // translate == location of object, x and y of shape are half of the size
   int flip = (int)(Math.random()*190);
